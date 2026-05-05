@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-threat_signal_analyser.py — Threat Signal Analysis: Hunt, IOC Sweep, Anomaly Detection
+threat_signal_analyzer.py — Threat Signal Analysis: Hunt, IOC Sweep, Anomaly Detection
 
 Supports three analysis modes:
   hunt    — Score and prioritize a threat hunting hypothesis
