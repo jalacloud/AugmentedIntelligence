@@ -125,9 +125,7 @@ Before beginning an ARA and threat model, one will need to have examined the cur
 
 The security analyst will arm her or himself with sufficient background knowledge to thoroughly assess a system. The enumerated background subjects create a strong basis for threat modeling.
 
-![A close up of text on a white background
-
-Description automatically generated](http://brookschoenfield.com/wp-content/uploads/2020/08/5.2-ATASM-Procedure-Steps-791x1024.jpg)
+![A close up of text on a white background Description automatically generated](http://brookschoenfield.com/wp-content/uploads/2020/08/5.2-ATASM-Procedure-Steps-791x1024.jpg)
 
 Figure 2: ATASM Sub-tasks
 
