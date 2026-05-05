@@ -1,2 +1,2 @@
 # AugmentedIntelligence
-Everything AI-related, prompt templates, skills, etc.
+Everything AI-related, agent development, skills, templates etc. all of it lives here.
