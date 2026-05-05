@@ -148,17 +148,13 @@ Each of Figure 2’s sub-tasks will then be broken down into its constituent ste
 
 Another way of looking at the threat modeling process is to see it as a set of inter-related and intertwined analyses. As David Wheeler (Author and Principal Engineer, Intel) once said to Brook, “It doesn’t matter at which activity one starts, so long as one completes all of them.” Below is Dave’s “circle of threat modeling”, as drawn by Sung Lee (Senior Security Architect, Intel):
 
-![A close up of a logo
-
-Description automatically generated](http://brookschoenfield.com/wp-content/uploads/2020/08/Slide1-961x1024.jpeg)
+![A close up of a logo Description automatically generated](http://brookschoenfield.com/wp-content/uploads/2020/08/Slide1-961x1024.jpeg)
 
 Threat model activity circle
 
 The relationship between the analyses that must be performed isn’t circular, and certainly must not be considered linear. Each activity intersects with, has dependencies from, and will be transformed through information and learnings derived from the other topics of analysis. A change of assets may change the architecture and vice versa. Most likely, structural changes will involve a changed set of attack surfaces and their related mitigations. A new use case may open up new opportunities for threat actors, thus expanding the attack surface. And so on. Hence, the following diagram may better represent the non-linear, and inter-dependent set of activities that must be completed for a threat model:
 
-![A close up of a logo
-
-Description automatically generated](http://brookschoenfield.com/wp-content/uploads/2020/08/Slide2-1024x821.jpeg)
+![A close up of a logo Description automatically generated](http://brookschoenfield.com/wp-content/uploads/2020/08/Slide2-1024x821.jpeg)
 
 Attack and defense investigation are typically performed through architecture analysis and decompositions into a system’s constituent components. Decomposition is a technique used to enumerate those entry, exit, and execution points at which a system may be attacked (“attack surfaces”), and the places within the system’s structures where defenses may be implemented (“defensible boundaries”). Unfortunately, the amount of decomposition that will need to be performed is highly dependent upon an architecture and its runtime context. This is because attack methods vary depending upon architecture and execution technologies.
 
